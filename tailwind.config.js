@@ -7,12 +7,14 @@ export default {
         './storage/framework/views/*.php',
         './resources/**/*.blade.php',
         './resources/**/*.js',
-        './resources/**/*.vue',
     ],
     theme: {
         extend: {
+            colors: {
+                "black": "#060606"
+            },
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                "hanken-grotesk": ["Hanken Grotesk", "sans-serif"],
             },
         },
     },
